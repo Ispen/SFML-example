@@ -12,3 +12,6 @@ SOURCES += \
 HEADERS += \
     game.h \
     player.h
+
+DISTFILES += \
+    .gitignore
