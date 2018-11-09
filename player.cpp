@@ -12,4 +12,5 @@ Player::Player()
 bool Player::move(float x, float y) {
     auto myPos = this->sprite.getPosition();
     this->sprite.setPosition(myPos.x + x, myPos.y + y);
+    return true;
 }

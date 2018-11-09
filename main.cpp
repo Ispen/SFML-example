@@ -13,7 +13,6 @@ int main(int, char const**)
 {
     auto game = new Game();
 
-
     game->startGame();
     return 0;
 }
